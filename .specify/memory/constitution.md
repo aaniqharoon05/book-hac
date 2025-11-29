@@ -39,19 +39,6 @@ All content created for the textbook must be original. If external sources are u
 ### VIII. AI ETHICAL USE RULES
 The use of AI tools in content creation and development must adhere to ethical guidelines. This includes ensuring fairness, avoiding bias in AI-generated text, maintaining data privacy, and being transparent about the role of AI in generating specific content. AI systems must be used responsibly and not for deceptive or harmful purposes.
 
-## Key Standards
-
-### I. Digital Twin Workstation Specifications
-Each student workstation must meet demanding computational requirements: NVIDIA RTX 4070 Ti (12GB VRAM) or higher GPU (preferably RTX 3090/4090 with 24GB VRAM), Intel Core i7 (13th Gen+) or AMD Ryzen 9 CPU, 64 GB DDR5 RAM (32GB absolute minimum), and Ubuntu 22.04 LTS as the operating system.
-
-### II. Physical AI Edge Kit Components
-Essential edge computing hardware includes: NVIDIA Jetson Orin Nano (8GB) or Orin NX (16GB) for on-device inference, Intel RealSense D435i or D455 for vision (RGB/Depth data), a generic USB IMU for balance, and a ReSpeaker USB Mic Array v2.0 for voice interface.
-
-### III. Sim-to-Real Deployment Protocol
-Training of AI models will primarily occur in cloud-based instances (e.g., AWS RoboMaker or NVIDIA Omniverse Cloud). For physical deployment, trained models (weights) must be downloaded and flashed to local Jetson kits to mitigate latency issues and ensure safe control of real robots. Direct physical robot control from cloud instances is prohibited.
-
-### IV. Software Stack Consistency
-All development and course content must adhere to a consistent software stack, including ROS 2 (Humble/Iron) native to Linux, NVIDIA Isaac Sim (requiring RTX capabilities), Gazebo for physics simulation, and Unity for high-fidelity rendering and human-robot interaction.
 
 ## Content Analysis and Revision
 
@@ -88,29 +75,20 @@ Commit messages must be clear, concise, and follow a conventional format (e.g., 
 
 ## Success Criteria
 
-### I. Core Deliverables Achievement
-Successful completion requires achieving the base functionality: a fully functional AI/Spec-Driven Book deployed to GitHub Pages and an Integrated RAG Chatbot capable of answering book-related questions, including those based on user-selected text. This constitutes 100 points of the total score.
-
-### II. Bonus Feature Implementation
-Attainment of bonus points (up to 50 each) through:
-- Creation and effective use of reusable intelligence via Claude Code Subagents and Agent Skills.
-- Successful implementation of Signup and Signin using Better-Auth, incorporating user background questions for content personalization.
-- Functional content personalization in chapters for logged-in users.
-- Functional Urdu translation of content in chapters for logged-in users.
-
-### III. Learning Outcomes Validation
-Demonstrated mastery of all specified learning outcomes, including understanding Physical AI, proficiency in ROS 2, robot simulation, NVIDIA Isaac development, humanoid robot design, and integration of GPT models for conversational robotics.
-
-### IV. Assessment Completion and Performance
-Successful completion of all course assessments: ROS 2 package development project, Gazebo simulation implementation, Isaac-based perception pipeline, and the Capstone project (simulated humanoid robot with conversational AI).
+- free from plagiarism 
+- no ai content 
+- easy to read 
+- understand for beginners
 
 ## Governance
 
 This Constitution establishes the foundational principles, standards, and success criteria for the Hackathon I: Physical AI & Humanoid Robotics Textbook project. All development, design, and operational activities must align with these directives.
 
-**Amendment Procedure**: Any amendments to this Constitution require a formal proposal, review, and approval by the core project team. Documentation of proposed changes, rationale, and potential impacts on dependent artifacts is mandatory.
+**Amendment Procedure**:
+ Any amendments to this Constitution require a formal proposal, review, and approval by the core project team. Documentation of proposed changes, rationale, and potential impacts on dependent artifacts is mandatory.
 
-**Versioning Policy**: This Constitution will adhere to Semantic Versioning (MAJOR.MINOR.PATCH).
+**Versioning Policy**: This Co
+nstitution will adhere to Semantic Versioning (MAJOR.MINOR.PATCH).
 - **MAJOR**: Backward incompatible governance or principle removals/redefinitions.
 - **MINOR**: New principles/sections added or materially expanded guidance.
 - **PATCH**: Clarifications, wording, typo fixes, non-semantic refinements.
