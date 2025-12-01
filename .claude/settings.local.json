@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "Bash(.specify/scripts/bash/create-phr.sh:*)",
-      "Bash(git --version)"
+      "Bash(git --version)",
+      "Bash(npx create-docusaurus@latest:*)",
+      "Bash(.specify/scripts/bash/check-prerequisites.sh:*)"
     ],
     "deny": [],
     "ask": []
